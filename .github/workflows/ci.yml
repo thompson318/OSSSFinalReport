@@ -3,6 +3,9 @@ name: republish html
 on:
   push:
 
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -24,4 +27,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: . # The folder the action should deploy.
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh_pages
