@@ -5,5 +5,5 @@ with open('report.md', 'r') as f:
 
 reportHTML = markdown.markdown(report_md)
 
-with open('report.html', 'w') as f:
+with open('html/index.html', 'w') as f:
     f.write(reportHTML)
