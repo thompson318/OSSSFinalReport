@@ -25,7 +25,7 @@ jobs:
         python generate_html.py
 
     - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: . # The folder the action should deploy.
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: . # The folder the action should deploy.
+        github_token: ${{ secrets.GITHUB_TOKEN }}
