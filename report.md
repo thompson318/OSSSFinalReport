@@ -15,15 +15,16 @@ This work was made possible by UCL's Advanced Research Computing Centre through 
 The project funded the ongoing development of the software sustainability dashboard for SciKit-Surgery and the creation of a broader template dashboard that anyone can use for their own projects. 
 
 [SciKit-Surgery](https://github.com/SciKit-Surgery) brings together a set of libraries targeted to support research in image guided surgery. 
-In September 2021 we presented SciKit-Surgery at [SeptembRSE](https://scikit-surgery.github.io/scikit-surgery-rse2021-poster/) and at WEISS's annual funder's review. We realised that although we intend to follow sustainable software best practice on our individual libraries we had no tool to enable us to track the status of all the libraries in the project. We couldn't find a read made tool, so we made our own, a "Sustainable Software Dashboard". The dashboard was fit for purpose at the time, but had no auto update feature, so got out of date very quickly.  
+In September 2021 we presented SciKit-Surgery at [SeptembRSE](https://scikit-surgery.github.io/scikit-surgery-rse2021-poster/) and at WEISS's annual funder's review. We realised that although we intend to follow sustainable software best practice on our individual libraries we had no tool to enable us to track the status of all the libraries in the project. We couldn't find a ready made tool, so we made our own, a "Sustainable Software Dashboard". The dashboard was fit for purpose at the time, but had no auto update feature, so got out of date very quickly.  
 
-## How has the project benefited our work
+## How has the project benefited our work?
 The Open Source Software Sustainability funding enabled us to fund a research software engineer to improve the automation of the dashboard, so it now updates every 12 hours using Github actions. 
 
 <a href="https://scikit-surgery.github.io/scikit-surgery-stats/" title="Click to go to the current SciKit-Surgery Dashboard"><img src="static/skdashboard.png" alt="The SciKit-Surgery Dashboard" width="60%"/></a> 
 <figcaption>The updated SciKit-Surgery Dashboard, giving an immediate overview of the library status.</figcaption>
 
 The updated dashboard enables us to see at a glance:
+
 1. Where the software has grown (new libraries are added automatically).
 2. Which libraries are gaining interest in the community (stars, forks).
 3. Which libraries are gaining a collaborative developer base (contributions).
@@ -32,17 +33,24 @@ The updated dashboard enables us to see at a glance:
 With this knowledge we are much better placed to focus future development work and make a case for ongoing funding.  
 
 ## Outputs: What was accomplished?
-In addition to automating the dashboard the team took the opportunity to engage with the research software engineering community to ask whether the dashboard could be more broadly useful, and if so what feature were of most interest to the community.
+In addition to automating the dashboard the team took the opportunity to engage with the research software engineering community to ask whether the dashboard could be more broadly useful, and if so what features were of most interest to the community.
 
-<img src="static/rse_southeast.jpeg" alt="Idil presenting at RSE Southeast 2023" width="50%"/><img src="static/community-2.png" alt="Survey results on what people want from a dashboard" width="50%"/>
-<figcaption>Idil leading a discussion on software sustainability and our dashboard features during <a href="https://doi.org/10.5281/zenodo.8337573">RSLondonSoutheast2023</a></figcaption>
+<img src="static/rse_southeast.jpeg" alt="Idil presenting at RSE Southeast 2023" width="45%"/><img src="static/community-2.png" alt="Survey results on what people want from a dashboard" width="55%"/>
+<figcaption>Idil leading a discussion on software sustainability and our dashboard features during<a href="https://doi.org/10.5281/zenodo.8337573">RSLondonSoutheast2023</a>. Photo thanks to Miguel.</figcaption>
 
 Our presentation at RSLondonSoutheast gave us confidence that the dashboard was of wider interest to the community, so we developed a template dashboard enabling users to quickly create their own dashboard. We presented the template as part of a 90 minute workshop at RSECon23 in Swansea to an audience of around 30 research software engineers from academia and industry.
 
-<img src="static/rsecon23.jpg" alt="Idil and Steve Presenting at RSECon23" width="50%"/><img src="static/sustain_dash-4.png" alt="Survey results on useful metrics" width="50%"/>
-<figcaption>Idil and Steve leading our workshop on software sustainability and our dashboard template at <a href="https://doi.org/10.5281/zenodo.8337573">RSECon23</a></figcaption>
+<img src="static/rsecon23.jpg" alt="Idil and Steve Presenting at RSECon23" width="45%"/><img src="static/sustain_dash-4.png" alt="Survey results on useful metrics" width="55%"/>
+<figcaption>Idil and Steve leading our workshop on software sustainability and our dashboard template at <a href="https://doi.org/10.5281/zenodo.8337573">RSECon23</a>. Photo thanks to Miguel.</figcaption>
 
+Participants at the workshop were able to use our template to create their own [dashboards](https://github.com/SciKit-Surgery/sustainable-pkg-stats/discussions/22) and participated in a discussion on what constitutes sustainable software and what features they would like to see on a dashboard. 
+
+## Future work and long term impact.
+The template dashboard remains freely available at [https://github.com/SciKit-Surgery/sustainable-pkg-stats](https://github.com/SciKit-Surgery/sustainable-pkg-stats) along with instructions for its use. We're continuing to use it for SciKit-Surgery and engaging with the community to improve it and make it more widely applicable. 
+
+The development of sustainable practice in research software engineering is a topic of growing interest and we intend to use the results of our work for a publication in the area of best practice for sustainability in software engineering.  
+
+## References and data sources.
 Ozdemir, Yagmur Idil, Xochicale, Miguel, & Thompson, Stephen. (2023). Design and discussion of a (reusable) Sustainability Dashboard of Open Source Tools (1.0). RSLondonSouthEast, London, UK. Zenodo. [https://doi.org/10.5281/zenodo.8337573](https://doi.org/10.5281/zenodo.8337573)
-Ozdemir, Yagmur Idil, Xochicale, Miguel, & Thompson, Stephen. (2023). How to use and contribute to a software sustainability dashboard (1.0). RSE Conference 2023 (RSECon23), Swansea UK. Zenodo. [https://doi.org/10.5281/zenodo.8337480](https://doi.org/10.5281/zenodo.8337480)
 
-## Future Work and Long Term Impact?
+Ozdemir, Yagmur Idil, Xochicale, Miguel, & Thompson, Stephen. (2023). How to use and contribute to a software sustainability dashboard (1.0). RSE Conference 2023 (RSECon23), Swansea UK. Zenodo. [https://doi.org/10.5281/zenodo.8337480](https://doi.org/10.5281/zenodo.8337480)
