@@ -54,3 +54,5 @@ The development of sustainable practice in research software engineering is a to
 Ozdemir, Yagmur Idil, Xochicale, Miguel, & Thompson, Stephen. (2023). Design and discussion of a (reusable) Sustainability Dashboard of Open Source Tools (1.0). RSLondonSouthEast, London, UK. Zenodo. [https://doi.org/10.5281/zenodo.8337573](https://doi.org/10.5281/zenodo.8337573)
 
 Ozdemir, Yagmur Idil, Xochicale, Miguel, & Thompson, Stephen. (2023). How to use and contribute to a software sustainability dashboard (1.0). RSE Conference 2023 (RSECon23), Swansea UK. Zenodo. [https://doi.org/10.5281/zenodo.8337480](https://doi.org/10.5281/zenodo.8337480)
+
+[The Original Grant Proposal](https://github.com/thompson318/OSSSFinalReport/blob/392888a9b0b24e0eeb8e1351f33d570801fd5f2c/sks_osss_call.pdf)
