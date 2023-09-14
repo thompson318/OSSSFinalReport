@@ -5,12 +5,12 @@
 # Opensource tools for Encouraging Sustainability in Diverse Multi-Library Projects
 
 ## Authors: 
-[Stephen Thompson](https://scholar.google.co.uk/citations?user=-rD4cJIAAAAJ),
+[Stephen Thompson](https://profiles.ucl.ac.uk/23126-stephen-thompson),
 [Yagmur Idil Ozdemir](https://iris.ucl.ac.uk/iris/browse/profile?upi=YIOZD16),
 [Miguel Xochicale](https://scholar.google.co.uk/citations?hl=en&user=_M0fVVIAAAAJ),
 [Tom Couch](https://iris.ucl.ac.uk/iris/browse/profile?upi=TCOUC69),
-[Thomas Dowrick](https://scholar.google.co.uk/citations?hl=en&user=9No6IFgAAAAJ),
-[Matthew J Clarkson](https://scholar.google.co.uk/citations?hl=en&user=bE6rIJEAAAAJ)
+[Thomas Dowrick](https://profiles.ucl.ac.uk/42164-thomas-dowrick),
+[Matthew J Clarkson](https://profiles.ucl.ac.uk/6821-matt-clarkson)
 
 ## Summary: What was the project about?
 The project funded the ongoing development of the software sustainability dashboard for SciKit-Surgery and the creation of a broader template dashboard that anyone can use for their own projects. 
